@@ -104,6 +104,11 @@ header{
     /* color: #e90d0d; */
 }
 
+nav .fa{
+    display: none;
+    color: #fff;
+}
+
 /* mobile phone */
 @media screen and (max-width: 380px) {
     header{
@@ -119,6 +124,15 @@ header{
 
     .particles{
         height: 20px;
-        
+
     }
+    .nav-items{
+        display: none;
+    }
+
+    nav .fa{
+        display: block;
+        color: #fff;
+    }
+
 }
