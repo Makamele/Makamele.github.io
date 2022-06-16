@@ -104,4 +104,21 @@ header{
     /* color: #e90d0d; */
 }
 
-/*  */
+/* mobile phone */
+@media screen and (max-width: 380px) {
+    header{
+       flex-direction: column;
+       /* height: 50vh; */
+    }
+    .header-content{
+        flex: 3;
+    }
+    .animation{
+        flex: 1;
+    }
+
+    .particles{
+        height: 20px;
+        
+    }
+}
